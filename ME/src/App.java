@@ -1,5 +1,5 @@
 public class App {
-    public static void imprimirSubsequencia( int vet[]){
+    public static void calcularSubsequencia( int vet[]){
         int maxSoma = Integer.MIN_VALUE;
         int soma= 0;
     for(int i=0;i<vet.length;i++){
@@ -23,6 +23,7 @@ public class App {
         vet[3]= 13;
         vet[4]= -5;
         vet[5]= 2;
-        imprimirSubsequencia(vet);        
+        System.out.print("A soma do valor da maior Subsequencia é: ");
+        calcularSubsequencia(vet) ;        
 }
 }

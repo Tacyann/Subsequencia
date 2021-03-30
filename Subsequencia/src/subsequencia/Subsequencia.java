@@ -20,12 +20,12 @@ public class Subsequencia {
 			}
 			if (soma < aux) { //--------------------------------------------- n
 				soma = aux; //----------------------------------------------- n
-				segundoIndice = i; n //-------------------------------------- n
+				segundoIndice = i; //---------------------------------------- n
 			}
 		} 
 
-		System.out.print("A sequencia que possui o maior valor � a que corresponde do [" + primeiroIndice + "] ao ["
-				+ segundoIndice + "] elemento, cuja soma � " + soma);//-------1
+		System.out.print("A sequencia que possui o maior valor  a que corresponde do [" + primeiroIndice + "] ao ["
+				+ segundoIndice + "] elemento, cuja soma " + "  " + soma);//-------1
 
 	}
 

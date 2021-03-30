@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch retornarposicao",
+            "request": "launch",
+            "mainClass": "retornarposicao",
+            "projectName": "Subsequencia_5d8abc10"
+        },
+        {
+            "type": "java",
             "name": "Launch Subsequencia",
             "request": "launch",
             "mainClass": "Subsequencia",

@@ -1,4 +1,4 @@
-public class App {
+public class me {
     public static void calcularSubsequencia( int vet[]){
         int maxSoma = Integer.MIN_VALUE;
         int soma= 0;

@@ -9,6 +9,7 @@ public class MaiorValor {
 
 		int soma = 0, aux = 0; //-------------------------------------------- 2
 
+		//Preencher o vetor.
 		for (int i = 0; i < array.length; i++) {//------------------------ 2 + 2n
 			if (array[i] > aux + array[i]) {//----------------------------------------|
 				primeiroIndice = i; //----------------------------------------n       |----- n + 3

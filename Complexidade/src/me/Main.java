@@ -27,7 +27,6 @@ public class Main {
 		}
 		return false;//---------------------------- 1
 	}
-
 	
 	// Complexidade O(log n)
 	

@@ -7,6 +7,7 @@ public class Somatres {
 		// 1+ 2 + 3 = 6
 		// 2 + 3 + 4 = 9 - esse é o resultado
 		//int resultado = somatoria(array,3);
+		//Condicional que pega o valor dos tres primeiros elementos
 		for ( int i = 0; i < ((array.length) - 1); i ++){//------------------------ 2 + 2n
 			soma = soma + array[i];//---------------------------------------------n 
 		}

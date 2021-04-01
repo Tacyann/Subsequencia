@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MaiorValor",
+            "request": "launch",
+            "mainClass": "MaiorValor",
+            "projectName": "Subsequencia"
+        },
+        {
+            "type": "java",
+            "name": "Launch subsequencia",
+            "request": "launch",
+            "mainClass": "subsequencia",
+            "projectName": "Subsequencia"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subsequencia",
+            "request": "launch",
+            "mainClass": "Subsequencia",
+            "projectName": "Subsequencia"
+        },
+        {
+            "type": "java",
+            "name": "Launch Somatres",
+            "request": "launch",
+            "mainClass": "Somatres",
+            "projectName": "Subsequencia_5d8abc10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "me.Main",
+            "projectName": "ME 2021"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subsequencia",
+            "request": "launch",
+            "mainClass": "Subsequencia/subsequencia.Subsequencia",
+            "projectName": "Subsequencia"
+        },
+        {
+            "type": "java",
             "name": "Launch retornarposicao",
             "request": "launch",
             "mainClass": "retornarposicao",

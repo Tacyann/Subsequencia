@@ -8,9 +8,11 @@ public class Somatres {
 		// 2 + 3 + 4 = 9 - esse é o resultado
 		//int resultado = somatoria(array,3);
 		//Condicional que pega o valor dos tres primeiros elementos
+
 		for ( int i = 0; i < ((array.length) - 1); i ++){//------------------------ 2 + 2n
 			soma = soma + array[i];//---------------------------------------------n 
 		}
+
 		for ( int j = 1; j < array.length; j ++){//------------------------ 2 + 2n
 			somar = somar + array[j];//---------------------------------------------n 
 		}
@@ -29,4 +31,4 @@ public class Somatres {
 	}*/
 	}
 }
-//Funcao = 3 + 2 + 2n + 2 + 2n +3n + 2 = 9 + 9n
+//Funcao = 3 + 2 + 2n + 2 + 2n +3n + 2 = 9 + 7n

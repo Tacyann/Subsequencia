@@ -45,3 +45,5 @@ public class Main {
 		return false;//---------------------------- 1
 	}
 }
+
+//Funcao =7+ 2+ 2n + n + 2n + n + 2 +7n + 3 = 14 + 12n

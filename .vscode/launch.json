@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Segunda",
+            "request": "launch",
+            "mainClass": "Segunda",
+            "projectName": "Subsequencia_5d8abc10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Primeira",
+            "request": "launch",
+            "mainClass": "com.primeira.Primeira",
+            "projectName": "Subsequencia_5d8abc10"
+        },
+        {
+            "type": "java",
+            "name": "Launch buscabinaria",
+            "request": "launch",
+            "mainClass": "buscabinaria",
+            "projectName": "Subsequencia_5d8abc10"
+        },
+        {
+            "type": "java",
             "name": "Launch MaiorValor",
             "request": "launch",
             "mainClass": "MaiorValor",

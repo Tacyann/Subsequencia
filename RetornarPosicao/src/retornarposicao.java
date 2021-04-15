@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class retornarposicao {
     
    //Metodo de Busca para retornar a posicao.
+
+
             private static int busca(int x, int[] vet) {
                 for ( int m = 0; m < vet.length; m++){ //------------------------ 2 + 2n
                     if (vet[m] == x)//Se o meu vetor na posicao i for igual a x. //---------------------------- n
@@ -30,10 +32,14 @@ public class retornarposicao {
         } else{
             System.out.print("O numero procurado: " +busca(x, vetores)+ " não pertence ao Vetor!"); //---------------------------- 1
         }
+
         //ordenando o Vetor
+        // passo 2 - executado n vezes
         for(int j = 0; j < vetores.length; j++){//pecorrer a linha //------------------------ 2 + 2n
+            //Esse laço  é executado n vezes para cada execução do passo 2, portanto n² vezes
             for(int k = 0; k < vetores.length; k++){//pecorrer a coluna //------------------------ 2 + 2n
-                if(vetores[j]< vetores[k]){//vamos fazer uma troca //------------------------n
+                // passo 1
+                if(vetores[j]< vetores[k]){//vamos fazer uma troca //------------------------n // executado toda vez
                     aux = vetores[j]; //------------------------n
                     vetores[j] = vetores[k]; //------------------------n
                     vetores[k] = aux; //------------------------n
@@ -45,3 +51,4 @@ public class retornarposicao {
 ler.close(); //---------------------------- 1
     }
 }
+//Funcao =4n +1 + 5 + n + 5 + n +2n + 2 + 2n + 2 + 3n= 15 + 13n

@@ -3,7 +3,8 @@ public class MaiorValor {
 	public static void main (String[] args) {
 
 		//int array[] = { -2, 11, -4, 13, -5, 2 };
-		int array[] = { 1, -3, 4, -2, -1, 6 }; //---------------------------- 1
+		//Aqui eu vou informar qual é o meu vetor.
+		int array[] = { -2, 11, -4, 13, -5, 2 }; //---------------------------- 1
 		int primeiroIndice = 0;//-------------------------------------------  1
 		int segundoIndice = 0;//--------------------------------------------  1
 
@@ -30,4 +31,4 @@ public class MaiorValor {
 
 }
 
-//Funcao = 5+ 2+ 2n + n + 3 +6n + 1 = 10 + 9n
+//Funcao = 5+ 2+ 2n + n + 3 +6n + 1 = 11 + 9n

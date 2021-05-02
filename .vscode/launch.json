@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Subsequencia_5d8abc10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Primeira",
+            "request": "launch",
+            "mainClass": "Primeira",
+            "projectName": "Subsequencia_5d8abc10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "Principal",
+            "projectName": "Subsequencia_5d8abc10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Segunda",
+            "request": "launch",
+            "mainClass": "com.segunda.Segunda",
+            "projectName": "Prova Segunda Questao"
+        },
+        {
+            "type": "java",
+            "name": "Launch Primeira",
+            "request": "launch",
+            "mainClass": "Primeira",
+            "projectName": "Prova Primeira Questao"
+        },
+        {
+            "type": "java",
+            "name": "Launch Primeira",
+            "request": "launch",
+            "mainClass": "com.primeira.Primeira",
+            "projectName": "Prova Primeira Questao"
+        },
+        {
+            "type": "java",
+            "name": "Launch Primeira",
+            "request": "launch",
+            "mainClass": "com.primeira.com.primeira.Primeira",
+            "projectName": "Prova Primeira Questao"
+        },
+        {
+            "type": "java",
             "name": "Launch Segunda",
             "request": "launch",
             "mainClass": "Segunda",

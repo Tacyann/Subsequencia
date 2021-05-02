@@ -1,4 +1,4 @@
-package com.primeira;
+
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Primeira {
 	public static void main(String[] args) {
 		
 		Scanner ler = new Scanner(System.in);
-		int[] array = new int[4];
+		int[] array = new int[5];
 		int numPos = 2;
 
 		for (int i = 0; i < array.length; i++) {

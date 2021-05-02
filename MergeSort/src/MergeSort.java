@@ -85,13 +85,13 @@ class MergeSort
 	{
 		int arr[] = { 12, 11, 13, 5, 6, 7 };
 
-		System.out.println("Matriz");
+		System.out.println("Array");
 		printArray(arr);
 
 		MergeSort ob = new MergeSort();
 		ob.sort(arr, 0, arr.length - 1);
 
-		System.out.println("\nMatriz Ordenada");
+		System.out.println("\nArray Ordenada");
 		printArray(arr);
 	}
 }

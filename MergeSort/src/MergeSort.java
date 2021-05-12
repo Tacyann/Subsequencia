@@ -91,7 +91,7 @@ class MergeSort
 		MergeSort ob = new MergeSort();
 		ob.sort(arr, 0, arr.length - 1);
 
-		System.out.println("\nArray Ordenada");
+		System.out.println("\nArray Ordenado");
 		printArray(arr);
 	}
 }
